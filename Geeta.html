@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geeta_task</title>
+</head>
+<body>
+    <h2>Nested Tables</h2>
+    <br>
+    <br>
+    <table border="1px">
+        <tr>
+            <td align="center"><b>Header column 1</b></td>
+            <td align="center"><b>Header column 2</b></td>
+            <td align="center"><b>Header column 3</b></td>
+            <td align="center"><b>Header column 4</b></td>
+        </tr>
+        <tr>
+            <td>Row2 - Item1</td>
+            <td>Row2 - Item2</td>
+            <td rowspan="2"><b>Row2: Nested Table 1 <br><br></b>
+                <table border="1px">
+                    <tr>
+                        <td><b>Row 1 Header</b></td>
+                        <td>item</td>
+                    </tr>
+                    <tr>
+                        <td><b>Row 2 Header</b></td>
+                        <td>item</td>
+                    </tr>
+                    <tr>
+                        <td><b>Row3 Header</b></td>
+                        <td>item</td>
+                    </tr>
+                </table>
+            </td>
+            <td>Row2 - Item4 <br> A second line</td>
+        </tr>
+        <tr>
+            <td><b>Row3: Nested Table 2<br><br></b>
+                <table border="1px">
+                    <tr>
+                        <td><b>Row 1 Header</b></td>
+                        <td>item</td>
+                    </tr>
+                    <tr>
+                        <td><b>Row 2 Header</b></td>
+                        <td>item</td>
+                    </tr>
+                </table>
+            </td>
+            <td>Row3 - Item2</td>
+            <!-- <td></td> -->
+            <td rowspan="2">Row3 - Item3</td>
+        </tr>
+        <tr>
+            <td>Row4 - Item1</td>
+            <td>Row4 - Item2</td>
+            <td>Row4 - Item3</td>
+            <!-- <td></td> -->
+        </tr>
+        <tr>
+            <td colspan="4">Row5 - Last row of outer table</td>
+            <!-- <td></td> -->
+            <!-- <td></td> -->
+            <!-- <td></td> -->
+        </tr>
+    </table>
+</body>
+</html>
